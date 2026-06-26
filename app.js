@@ -54,7 +54,7 @@ const allowedAdmins = ["wassimberbache11@gmail.com"];
 
 onAuthStateChanged(auth, (user) => {
   if (!user || !allowedAdmins.includes(user.email)) {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }
 });
 
